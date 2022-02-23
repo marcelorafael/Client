@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Footer /> should render the heading 1`] = `
+exports[`<Footer /> should render 4 colomns topics 1`] = `
 .c5 {
   color: #030517;
   position: relative;
