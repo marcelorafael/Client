@@ -1,8 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import GameCardSlider from '.'
-import { renderWithTheme } from 'utils/tests/helpers'
-
-const items: any = [
+export default [
   {
     id: '1',
     title: 'Population Zero',
@@ -58,9 +54,3 @@ const items: any = [
     promotionalPrice: 215
   }
 ]
-
-describe('<GameCardSlider />', () => {
-  it('should render white arrows if color passed', () => {
-    renderWithTheme(<GameCardSlider items={items} />)
-  })
-})
